@@ -1,0 +1,41 @@
+# --------------------
+# PYTHON SPECIFIC FILES
+# --------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Dependency files (often created by tools)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --------------------
+# DEEP LEARNING / MODEL SPECIFIC
+# --------------------
+# Saved model files
+# You should ONLY exclude these if they are HUGE (over 100MB). 
+# If they are small for a demo, INCLUDE them. 
+# Since we are using a specific 'saved_weights' folder:
+saved_weights/
+*.pt  # PyTorch checkpoint files
+
+# --------------------
+# IDE / VS CODE FILES
+# --------------------
+# VS Code files
+.vscode/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+
+# --------------------
+# OS Specific files
+# --------------------
+# macOS files
+.DS_Store
