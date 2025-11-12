@@ -1,0 +1,9 @@
+# requirements.txt
+torch>=1.10
+torchvision
+numpy
+opencv-python
+Pillow
+tqdm
+scikit-learn
+matplotlib
